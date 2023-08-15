@@ -1,0 +1,92 @@
+@media(min-width: 1280px) {
+    .body-container {
+        grid-template-rows: repeat(5, auto) 8rem;
+
+    }
+
+    .body-container .imagine {
+        grid-area: head;
+        background: url('../img/header-bg-desktop.png') center no-repeat;
+        background-size: cover;
+        padding: 5.9rem 16.3rem;
+    }
+
+    .imagine .head-content {
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .head-content .head-title {
+        width: 19.5rem;
+        font-size: 3.5rem;
+    }
+
+    .head-content .head-text {
+        text-align: center;
+    }
+
+    .head-content .head-buttons {
+        flex-direction: row;
+    }
+
+    .head-buttons .head-download {
+        width: 12.8rem;
+    }
+
+    .head-buttons .head-browser {
+        width: 17.5rem;
+    }
+
+    .section {
+        flex-direction: row;
+        /* height: 24.6rem; */
+        gap: 1rem;
+    }
+
+    .section-02 {
+        flex-direction: row-reverse;
+    }
+
+    .section img {
+        height: 24.6rem;
+    }
+
+    .section-text {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .section h2 {
+        font-size: 2.5rem;
+        width: 20.5rem;
+    }
+
+    .section p {
+        width: 21.75rem;
+    }
+
+    .section-04 {
+        gap: 1rem;
+    }
+
+    .section-04 h2 {
+        width: 38rem;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .section-04 p {
+        width: 50.125rem;
+        text-align: center;
+    }
+
+    .section-04 img {
+        width: 49rem;
+        height: 31.75rem;
+    }
+
+    .foot logo {
+        width: 14.375rem;
+        height: 3.9rem;
+    }
+}
